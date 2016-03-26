@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "design-patterns-reference", "design-patterns-reference\design-patterns-reference.csproj", "{9BC625BD-D4A3-40EF-BA6E-70030F4E7D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "design-patterns-reference.tests", "design-patterns-reference.tests\design-patterns-reference.tests.csproj", "{C1F398B1-6C55-49C7-A033-7DBCC93285F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BC625BD-D4A3-40EF-BA6E-70030F4E7D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC625BD-D4A3-40EF-BA6E-70030F4E7D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC625BD-D4A3-40EF-BA6E-70030F4E7D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC625BD-D4A3-40EF-BA6E-70030F4E7D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1F398B1-6C55-49C7-A033-7DBCC93285F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F398B1-6C55-49C7-A033-7DBCC93285F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F398B1-6C55-49C7-A033-7DBCC93285F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F398B1-6C55-49C7-A033-7DBCC93285F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
