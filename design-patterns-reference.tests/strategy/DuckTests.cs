@@ -27,7 +27,7 @@ namespace design_patterns_reference.tests.strategy
             Assert.AreEqual("Quack", quackResult);
             Assert.AreEqual("I can't fly", flyResult);
 
-            modelDuck.FlyBehavior = new FlyRocketPowered();
+            modelDuck.SetNewFlyBehavior(new FlyRocketPowered());
             var newFlyResult = modelDuck.Fly();
 
             Assert.AreEqual("I'm flying with a rocket!", newFlyResult);
